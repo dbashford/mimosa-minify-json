@@ -1,0 +1,31 @@
+{
+  "name": "mimosa-minify-json",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dbashford/mimosa-minify-json",
+  "author": "David Bashford",
+  "description": "Minifies .json files",
+  "contributors": [
+    {
+      "name": "David Bashford",
+      "email": "dbashford@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbashford/mimosa-minify-json"
+  },
+  "keywords": [
+    "mimosa",
+    "mmodule",
+    "minify",
+    "json"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./src/index",
+  "scripts": {
+    "prepublish": "mimosa build"
+  }
+}
